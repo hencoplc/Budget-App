@@ -6,7 +6,7 @@ box-sizing: border-box;
 }
 h2 {
 
-    color: white;
+    color: black;
     padding: 7px;
 }
 body {
@@ -26,6 +26,9 @@ body {
     background-color: rgb(255, 255, 255);
 }
 .header {
+    background-color: aliceblue;
+    top: 0px;
+    bottom: 0px;
     width: 900px;
     height:200px;
     background-image: url( Screenshot\ \(5\).png);
@@ -103,6 +106,7 @@ width: 60px;
     border-radius: 7px;
     margin-left: 5px;
   outline: none;
+  
 }
 .container {
     display: flex;
@@ -114,8 +118,14 @@ width: 60px;
 }
 .div {
 
-    display: flex;
-    align-items: center;
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-top: 10px;
+  border: 1px solid rgb(116, 112, 112) ; 
+  border-radius: 4px;
+   margin-bottom: 30px;
+   padding: 20px;
     
 
 }
@@ -136,9 +146,9 @@ width: 60px;
 .btn1 {
 
     display: flex;
-    justify-content:space-around ;
-    width: 350px;
-    margin-left: 20px;
+    justify-content:space-between ;
+    width: 300px;
+   margin-left: 10px;
     margin-top: 20px;
 }
 .button {
@@ -174,12 +184,12 @@ h1 {
 
 }
 .sub-con {
-    position: static;
+margin-top: 170px;
  border: 1px solid black;
  display: flex;
- justify-content: space-around;
+ justify-content: spa;
  flex-direction:column ;
- height: 500px;
+
  padding: 20px;
 border-radius: 5px;
 background-color: white;
@@ -187,9 +197,9 @@ box-shadow: 0 0 5px;
 }
 
 .sub-conb {
-    position: static;
     border: 1px solid black;
     display: flex;
+   
     justify-content: space-around;
     flex-direction:column ;
     height: 500px;
@@ -198,6 +208,22 @@ box-shadow: 0 0 5px;
    background-color: white;
    box-shadow: 0 0 5px;
 
+}
+
+.add {
+    border: 1px solid black;
+    box-shadow: 0 0 3px;
+width: 125px;
+padding: 9px;
+margin: 5px 0px 20px 700px;
+border-radius: 3px;
+
+
+}
+
+.add:hover{
+
+    background-color: rgb(24, 223, 24);
 }
 .add1 {
     height: 25px;
@@ -221,7 +247,7 @@ box-shadow: 0 0 5px;
 .fa-trash-can {
     color: black;
     font-size: 20px;
-    margin-left: 2px;
+    margin-left: 400px;
 }
 .fa-trash-can:hover {
     color: red;
@@ -239,7 +265,7 @@ box-shadow: 0 0 5px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-direction: ;
+    margin-top: 110px;
 }
 .foot {
 
@@ -282,6 +308,37 @@ width: 150px;
 .form-child {
 color: blue;
     font-size: 25px;
+}
+.sticky {
+
+   
+}
+
+
+.div2{
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+      border: 1px solid rgb(116, 112, 112) ; 
+      border-radius: 4px;
+       margin-bottom: 30px;
+       padding: 20px;
+
+}
+.div> input {
+    width: 200px;
+}
+.add3 {
+
+    border: 1px solid black;
+    box-shadow: 0 0 3px;
+width: 125px;
+padding: 9px;
+margin: 5px 0px 20px 700px;
+border-radius: 3px;
 }
 
 
